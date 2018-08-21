@@ -1,0 +1,38 @@
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 100px;
+  font-size: 20px;
+  background-color: #eee;
+  text-align: center;
+
+  .list-item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .person-info-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .age.red {
+        color: red;
+      }
+
+      .age.green {
+        color: green;
+      }
+    }
+
+    .btn-remove {
+      padding: 5px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      margin-left: 50px;
+    }
+  }
+}
